@@ -16,7 +16,7 @@ You should be able to access the swagger UI from http://localhost:8080/swagger-u
 
 You can run the tests directly using the built image by overriding the entry point
 ```shell script
-docker run --rm --entrypoint "./gradlew" yl/enrollment test
+docker run --rm --entrypoint "./gradlew" yl/enrollment cleanTest test --info
 ```
 
 ## Documentation
