@@ -1,0 +1,8 @@
+CREATE TABLE Classes
+(
+    id   IDENTITY PRIMARY KEY,
+    name CHAR(3) NOT NULL UNIQUE
+);
+
+INSERT INTO Classes
+VALUES (1, '2 A');
